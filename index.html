@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/1b982d03ef.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="main-screen" onclick="toggleMenu()"></div>
+    <div class="modal-screen" onclick="toggleModal()"></div>
+    <div class="header-container">
+        <header class="main-header main-layout flex space-between">
+            <div class="logo">Blogin<span>.</span></div>
+            <ul class="main-nav flex align-center">
+                <li class="journal" onmouseleave="onHoverOutJournal()"><a class="active" onmouseover="onHoverJournal()"
+                        href="#">Journal</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">October 2019</a></li>
+                        <li><a href="#">January 2020</a></li>
+                        <li><a href="#">April 2020</a></li>
+                        <li><a href="#">July 2020</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Work</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <button class="menu-btn" onclick="toggleMenu()">☰</button>
+
+
+
+        </header>
+    </div>
+    <div class="main-content main-layout center">
+        <div class="card flex mb-card">
+            <img class="card-image" src="/images/001.jpg" alt="">
+            <div class="flex card-info space-between">
+                <h2 class="card-title">Duis aute irure dolor in
+                    henderit in voluptate.</h2>
+                <p class="card-para">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                    ex
+                    ea commo doconsequat, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <p>
+                    Duis aute irure
+                    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur...
+                </p>
+                <button class="go-to-post-btn" onclick="toggleModal()">Continue Reading</button>
+            </div>
+        </div>
+        <div class="card flex mb-card">
+            <img class="card-image" src="/images/002.png" alt="">
+            <div class="card-info flex space-between">
+                <h2 class="card-title">
+                    Duis aute irure dolor in
+                    henderit in voluptate.
+                </h2>
+                <p class="card-para">
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+                    ea commo doconsequat, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <p>
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                    pariatur...
+                </p>
+                <button class="go-to-post-btn" onclick="toggleModal()">Continue Reading</button>
+            </div>
+        </div>
+        <div class="card mb-card flex">
+            <img class="card-image" src="/images/003.png" alt="">
+            <div class="card-info flex space-between">
+                <h2 class="card-title"> Duis aute irure dolor in
+                    henderit in voluptate.</h2>
+                <p class="card-para">
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+                    ea commo doconsequat, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <p>
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                    pariatur...
+                </p>
+                <button class="go-to-post-btn" onclick="toggleModal()">Continue Reading</button>
+            </div>
+        </div>
+    </div>
+    <div class="pagination flex space-between main-layout">
+        <a href="#" class="previous-page"><img src="/images/prev-arrow.png" alt=""> Previous</a>
+        <a href="#" class="next-page">Next <img src="images/next-arrow.png" alt=""></a>
+    </div>
+    <footer class="main-footer flex align-center center">
+        <div class="footer-title logo">Blogin<span>.</span></div>
+        <small>© 2014 Blogin.com - All Rights Reserved - Find more free Templates at <span
+                class="pixelhint">Pixelhint.com</span></small>
+        <ul class="social-nav flex">
+            <li><a href="https://www.facebook.com/kngbogi"><i class="fab fa-facebook-square my-icon"></i></a></li>
+            <li><a href=""><i class="fab fa-twitter-square fa-3x my-icon"></i></a></li>
+            <li><a href=""><i class="fab fa-behance-square fa-3x my-icon"></i></li>
+            <li><a href=""><i class="fab fa-dribbble-square fa-3x my-icon"></i></a></li>
+        </ul>
+    </footer>
+    <div class="on-read-more-modal flex align-center space-evenly">
+        <h2>Join us to get access to the latest stories!</h2>
+        <label for="email">Email:</label>
+        <input type="email" name="emailInput" id="emailInput">
+        <div class="modal-buttons-container flex space-evenly">
+            <button class="submit">Submit</button>
+            <button class="close" onclick="toggleModal()">Close</button>
+        </div>
+    </div>
+
+    <script src="/js/main.js"></script>
+</body>
+
+</html>
