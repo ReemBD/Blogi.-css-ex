@@ -218,6 +218,7 @@ ul {
     top: 151px;
     opacity: 1;
 }
+
 /* PAGINATION */
 
 .pagination {
@@ -274,6 +275,7 @@ ul {
 small .pixelhint {
     font-family: Lato Bold;
 }
+
 /* SCREENS */
 
 .main-screen, .modal-screen {
@@ -389,6 +391,7 @@ html>*.open-modal {
 .fa-dribbble-square:hover {
     color: #ea4c89;
 }
+
 /* HELPERS */
 
 .flex {
