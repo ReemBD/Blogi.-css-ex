@@ -2,27 +2,27 @@
 
 @font-face {
     font-family: Eurofurence;
-    src: url(../fonts/eurof55.ttf);
+    src: url(fonts/eurof55.ttf);
 }
 
 @font-face {
     font-family: Lato;
-    src: url(../fonts/Lato-Regular.ttf);
+    src: url(fonts/Lato-Regular.ttf);
 }
 
 @font-face {
     font-family: 'Lato Bold';
-    src: url(../fonts/Lato-Bold.ttf);
+    src: url(fonts/Lato-Bold.ttf);
 }
 
 @font-face {
     font-family: MyriadPro;
-    src: url(../fonts/MYRIADPRO-REGULAR.OTF);
+    src: url(fonts/MYRIADPRO-REGULAR.OTF);
 }
 
 @font-face {
     font-family: champagne;
-    src: url(../fonts/Champagne-Limousines.ttf);
+    src: url(fonts/Champagne-Limousines.ttf);
 }
 
 /* BASE */
